@@ -1,16 +1,21 @@
+import NFT_Card from "./components/NFT-Card"
+import styled from "styled-components"
 
+const Main__Container = styled.div `
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 62px 20px;
+`
 
 function App() {
   return (
     <>
-     Equilibrium #3429
-
-      Our Equilibrium collection promotes balance and calm.
-
-      0.041 ETH
-      3 days left
-
-      Creation of Jules Wyvern
+    <Main__Container>
+      <NFT_Card />
+    </Main__Container>
     </>
   )
 }
