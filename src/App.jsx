@@ -7,7 +7,7 @@ const Main__Container = styled.div `
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 150px 20px;
+  padding: 150px 28px;
 `
 
 function App() {
